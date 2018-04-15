@@ -1,0 +1,24 @@
+{
+  "name": "fast-dev-project",
+  "version": "1.0.0",
+  "description": "project fro fast developing code with live reloading in browser",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budarin/fast-dev-project.git"
+  },
+  "author": "Vadim Budarin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/budarin/fast-dev-project/issues"
+  },
+  "homepage": "https://github.com/budarin/fast-dev-project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "prettier": "^1.12.0"
+  }
+}
