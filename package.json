@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/budarin/fast-dev-project#readme",
   "devDependencies": {
-    "browser-sync": "^2.23.6",
-    "prettier": "^1.12.0"
+    "browser-sync": "^2.27.11",
+    "prettier": "^2.8.3"
   }
 }
